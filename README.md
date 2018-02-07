@@ -1,10 +1,34 @@
-A W.I.P. revamp of our website, by us and contributing members from our Discord.
-===
+# BoxOfDevs [![Last Commit](https://img.shields.io/github/last-commit/BoxOfDevs/new-site/master.svg)](https://github.com/BoxOfDevs/new-site/commits/)
+> BoxOfDevs is a diverse development team consisting of young members.
+## Requirements
+* [Google Chrome](https://www.google.ca/intl/en/chrome/)
+* [Git](https://git-scm.com/)
+* Text Editor
+* Internet Access
 
-### Add anything you think we need to do to the TODO list.
-### Do we want it to be a single-html-file thing, where a JS script similar to the one from [this Gist](https://gist.github.com/TheDragonRing/3b59e23f5d455851940586e22aef892c) manages which page appears, or a file per page, like in the previous site?
-### Do we want to design a new icon for the BoxOfDevs Team?
-### The FontAwesome and jQuery files have been added so that we have an idea of what we're working with - they may be replaced with CDNs in the future.
+## Running
+<details open>
+<summary>Windows</summary>
 
-## TODO
-- (?)
+```bash
+C:/
+git clone https://github.com/BoxOfDevs/new-site.git
+cd new-site
+.\new-site\index.html
+```
+
+</details>
+
+<details open>
+<summary>Linux</summary>
+
+```bash
+cd /
+git clone https://github.com/BoxOfDevs/new-site.git
+google-chrome ./new-site/index.html
+```
+
+</details>
+
+## Contribution
+We would love it if you contribute, just remember to be kind, keep the code clean, and minimize dependencies.
